@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,23 +9,23 @@ body{
 }
 
 .container{
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px blue;
 }
 
 button{
     display: block;
     margin: 20px 0 0;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: aqua;
+    color: black;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: #0056b3;
+    background-color: bisque;
+    transform: scale(1.1);
 }
